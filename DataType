@@ -1,0 +1,59 @@
+
+1. **int**: This data type is used for representing integers. Dart supports both signed and unsigned integers. For example:
+
+   ```dart
+   int age = 25;
+   ```
+
+2. **double**: This data type is used for representing floating-point numbers, which are numbers with decimal points. For example:
+
+   ```dart
+   double price = 19.99;
+   ```
+
+3. **String**: The `String` data type is used for text and character data. You can use single or double quotes to define a string. For example:
+
+   ```dart
+   String name = "John";
+   ```
+
+4. **bool**: This data type is used for representing boolean values, which can be either `true` or `false`. For example:
+
+   ```dart
+   bool isStudent = true;
+   ```
+
+5. **List**: A list is an ordered collection of items. Lists can hold elements of any data type, including other lists. You can create lists using square brackets `[]` and specify the type using angle brackets `<Type>`. For example:
+
+   ```dart
+   List<int> numbers = [1, 2, 3, 4, 5];
+   ```
+
+6. **Map**: A map is a collection of key-value pairs, where each key is associated with a value. Keys and values can be of any data type. You can create a map using curly braces `{}`. For example:
+
+   ```dart
+   Map<String, int> grades = {
+     'Alice': 95,
+     'Bob': 88,
+     'Charlie': 75,
+   };
+   ```
+
+7. **dynamic**: The `dynamic` data type is used when the type of a variable is not known until runtime. This is less common and should be used sparingly because it bypasses the static type checking that Dart provides.
+
+   ```dart
+   dynamic variable = 'Hello';
+   variable = 42; // This is allowed
+   ```
+
+8. **var**: The `var` keyword allows Dart to infer the data type of a variable based on its initialization value. This is also less common and is typically used when the type can be easily understood from the context.
+
+   ```dart
+   var greeting = 'Hello'; // Dart infers String
+   ```
+
+9. **Object**: The `Object` data type is the root of the Dart type hierarchy, and all types inherit from it. You can use it to hold objects of any type, but it is not recommended for general use unless necessary.
+
+   ```dart
+   Object obj = 'Hello'; // obj can hold any type
+   ```
