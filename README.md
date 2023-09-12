@@ -40,6 +40,10 @@ To set up Flutter and start working with these notes and examples, follow these 
 
 Contributions to this repository are welcome! If you have any notes or code examples related to Dart or Flutter that you'd like to share, feel free to create a pull request.
 
+## Make Sure 
+![image](https://github.com/rajendrapacharne/Flutter-Notes/assets/69509779/33f8ec68-c1a8-4c92-bc53-19582b832430)
+
+
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
