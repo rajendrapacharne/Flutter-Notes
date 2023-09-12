@@ -23,4 +23,10 @@ void main() {
      print(i);
   }
   
+
+List third;
+third=first.map((e) => e).toList();
+print(third);
+
+
 }
