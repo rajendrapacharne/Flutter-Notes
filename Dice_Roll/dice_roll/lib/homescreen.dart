@@ -10,8 +10,8 @@ class _HomeScreenState extends State<HomeScreen>
     with SingleTickerProviderStateMixin {
   int leftDiceNumber = 1;
   int rightDiceNumber = 1;
-  late AnimationController _controller;
-  late CurvedAnimation animation;
+  AnimationController _controller;
+  CurvedAnimation animation;
 
   @override
   void initState() {
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen>
                 )
               ],
             ),
-            ElevatedButton(
+            ElevatedButton( // Use ElevatedButton instead of RaisedButton
               onPressed: roll,
               child: Text(
                 'Roll',
